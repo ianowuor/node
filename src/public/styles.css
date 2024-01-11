@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(to bottom right, #f0f2f5, #e6e9ed); /* Gradient background */
+    font-family: 'Montserrat', sans-serif; /* Modern font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    background-color: #cffc03; /* Vibrant button color */
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
